@@ -46,7 +46,6 @@ http://www.tooplate.com/view/2076-zentro
 				<li><a href="#home" class="smoothScroll">Accueil</a></li>
 				<li><a href="#gallery" class="smoothScroll">Restaurants</a></li>
 				<li><a href="#team" class="smoothScroll">Activités</a></li>
-				<li><a href="#" class="smoothScroll">Contact</a></li>
 				<li><a href="#" class="smoothScroll">Mon compte</a></li>
 				<li><a href="#" class="smoothScroll">Connexion</a></li>
 				<li><a href="#" class="smoothScroll">Inscription</a></li>
@@ -54,7 +53,6 @@ http://www.tooplate.com/view/2076-zentro
 		</div>
 	</div>
 </section>
-
 
 <!-- home section -->
 <section id="home" class="parallax-section">
@@ -79,22 +77,23 @@ http://www.tooplate.com/view/2076-zentro
 				<h1 class="heading">Restaurants</h1>
 				<hr>
 			<div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
-				<a href="#" data-lightbox-gallery="zenda-gallery"><img src="images/assiette.jpg" alt="gallery img"></a>
+				<a href="#menu" data-lightbox-gallery="zenda-gallery"><img src="images/assiette.jpg" alt="gallery img"></a>
 				<div>
 					<h3>Le Quinzième</h3>
-					<span>Cuisine Moderne, Créative</span>
+					<span>Cuisine Moderne, Créative</span><br>
+					<input type="button" value="Réserver" onclick="href="#""
 				</div>
-				<a href="#" data-lightbox-gallery="zenda-gallery"><img src="images/loiseau.jpg" alt="gallery img"></a>
+				<a href="#menu1" data-lightbox-gallery="zenda-gallery"><img src="images/loiseau.jpg" alt="gallery img"></a>
 				<div>
 					<h3>Le Restaurant</h3>
 					<span>Cuisine Moderne, Créative</span>
 				</div>
-				<a href="#" data-lightbox-gallery="zenda-gallery"><img src="images/loulou.jpg" alt="gallery img"></a>
+				<a href="#menu2" data-lightbox-gallery="zenda-gallery"><img src="images/loulou.jpg" alt="gallery img"></a>
 				<div>
 					<h3>Shang Palace</h3>
 					<span>Chinois, Gastronomique</span>
 				</div>
-				<a href="#" data-lightbox-gallery="zenda-gallery"><img src="images/auberge.jpg" alt="gallery img"></a>
+				<a href="#menu3" data-lightbox-gallery="zenda-gallery"><img src="images/auberge.jpg" alt="gallery img"></a>
 				<div>
 					<h3>L'Atelier de Joël Robuchon</h3>
 					<span>Cuisine Moderne, Créative, Gastronomique²</span>
@@ -323,22 +322,38 @@ http://www.tooplate.com/view/2076-zentro
 	<div class="container">
 		<div class="row">
 			<div class="col-md-offset-1 col-md-10 col-sm-12 text-center">
-				<h1 class="heading">Contact Us</h1>
+				<h1 class="heading">Réservation</h1>
 				<hr>
 			</div>
 			<div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeIn" data-wow-delay="0.9s">
 				<form action="#" method="post">
 					<div class="col-md-6 col-sm-6">
-						<input name="name" type="text" class="form-control" id="name" placeholder="Name">
+						<select name="name" type="text" list="resto" class="form-control" id="name" placeholder="Nom du restaurant">
+						<datalist id="resto">
+							<option value="Le Quinzième">Choisissez un restaurant</option>
+							<option value="Le Quinzième">Le Quinzième</option>
+							<option value="Le Restaurant">Le Restaurant</option>
+							<option value="Shang Palace">Shang Palace</option>
+							<option value="L'Atelier de Joël Robuchon">L'Atelier de Joël Robuchon</option>
+						</datalist>
 				  </div>
 					<div class="col-md-6 col-sm-6">
-						<input name="email" type="email" class="form-control" id="email" placeholder="Email">
+						<input name="email" type="email" class="form-control" id="email" placeholder="Adresse mail">
 				  </div>
-					<div class="col-md-12 col-sm-12">
-						<textarea name="message" rows="8" class="form-control" id="message" placeholder="Message"></textarea>
-					</div>
+					<div class="col-md-6 col-sm-6">
+						<input name="tel" type="tel" class="form-control" id="tel" placeholder="Téléphone">
+				  </div>
+					<div class="col-md-6 col-sm-6">
+						<input name="pers" type="number" class="form-control" id="pers" placeholder="Nombre de personnes">
+				  </div>
+					<div class="col-md-6 col-sm-6">
+						<input name="date" type="date" class="form-control" id="date" placeholder="Date">
+				  </div>
+					<div class="col-md-6 col-sm-6">
+						<input name="heure" type="time" class="form-control" id="heure" placeholder="Heures">
+				  </div>
 					<div class="col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6">
-						<input name="submit" type="submit" class="form-control" id="submit" value="make a reservation">
+						<input name="submit" type="submit" class="form-control" id="submit" value="Réserver">
 					</div>
 				</form>
 			</div>
@@ -346,7 +361,6 @@ http://www.tooplate.com/view/2076-zentro
 		</div>
 	</div>
 </section>
-
 
 <!-- footer section -->
 <footer class="parallax-section">
@@ -388,8 +402,8 @@ http://www.tooplate.com/view/2076-zentro
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h3>K&E</h3>
-				<p>Copyright © K&E Entreprise</p>
+				<h3>P&S</h3>
+				<p>Copyright © P&S Entreprise</p>
 			</div>
 		</div>
 	</div>
