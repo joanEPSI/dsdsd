@@ -41,7 +41,7 @@ hr {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-#menu, #contact {
+#menu, #contact, #contact1 {
   background: #f0f0f0;
 }
 
@@ -401,6 +401,43 @@ hr {
   background: #999;
   color: #ffffff;
 }
+
+/* inscricompteption section */
+#compte {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#compte .col-md-8 {
+  margin-bottom: 32px;
+}
+#compte .form-control {
+  background: #ffffff;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+#compte .form-control:focus {
+  border-color: #f9f9f9;
+}
+#compte input {
+  height: 48px;
+}
+#compte input[type="submit"] {
+  background: transparent;
+  border: 2px solid #999;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  height: 50px;
+}
+#compte input[type="submit"]:hover {
+  background: #999;
+  color: #ffffff;
+}
+
 
 
 /* footer section */
