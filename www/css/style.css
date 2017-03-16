@@ -294,6 +294,115 @@ hr {
   color: #ffffff;
 }
 
+/* contact section */
+#contact1 {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#contact1 .col-md-8 {
+  margin-bottom: 32px;
+}
+#contact1 .form-control {
+  background: #ffffff;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+#contact1 .form-control:focus {
+  border-color: #f9f9f9;
+}
+#contact1 input {
+  height: 48px;
+}
+#contact1 input[type="submit"] {
+  background: transparent;
+  border: 2px solid #999;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  height: 50px;
+}
+#contact1 input[type="submit"]:hover {
+  background: #999;
+  color: #ffffff;
+}
+
+/* connexion section */
+#connexion {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#connexion .col-md-8 {
+  margin-bottom: 32px;
+}
+#connexion .form-control {
+  background: #ffffff;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+#connexion .form-control:focus {
+  border-color: #f9f9f9;
+}
+#connexion input {
+  height: 48px;
+}
+#connexion input[type="submit"] {
+  background: transparent;
+  border: 2px solid #999;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  height: 50px;
+}
+#connexion input[type="submit"]:hover {
+  background: #999;
+  color: #ffffff;
+}
+
+/* inscription section */
+#inscription {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#inscription .col-md-8 {
+  margin-bottom: 32px;
+}
+#inscription .form-control {
+  background: #ffffff;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all 0.4s ease-in-out;
+}
+#inscription .form-control:focus {
+  border-color: #f9f9f9;
+}
+#inscription input {
+  height: 48px;
+}
+#inscription input[type="submit"] {
+  background: transparent;
+  border: 2px solid #999;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  height: 50px;
+}
+#inscription input[type="submit"]:hover {
+  background: #999;
+  color: #ffffff;
+}
+
+
 /* footer section */
 footer {
   background: url('../images/footer-bg.jpg') 50% 0 repeat-y fixed;
